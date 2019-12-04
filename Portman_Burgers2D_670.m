@@ -93,6 +93,7 @@ ConserveFTCS = std(avgFTCS)
  close(Burgers);
 
 %% Lax-Wendroff -- Same format as FTCS
+%% Thanks to Jakob Beran for the code/algorithm structure
 
 for n = 1:Nt-1
     for j = 2:N1
